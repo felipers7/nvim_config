@@ -4,3 +4,7 @@ vim.api.nvim_set_keymap('n', '<space>q', ':q!<CR>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<C-f>', ':NvimTreeFocus<CR>', {})
 vim.wo.number = true
 vim.wo.relativenumber = true
+
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
