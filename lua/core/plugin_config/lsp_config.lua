@@ -5,7 +5,7 @@
 
    require('mason').setup()
    require('mason-lspconfig').setup({
-    ensure_installed = { "lua_ls","solargraph" }
+    ensure_installed = { "lua_ls","solargraph","tsserver","rust_analyzer" }
    })
 
 
@@ -13,6 +13,12 @@
      capabilities = capabilities
    }
    require('lspconfig').solargraph.setup {
+    capabilities = capabilities
+  }
+   require('lspconfig').rust_analyzer.setup {
+    capabilities = capabilities
+  }
+   require('lspconfig').tsserver.setup {
     capabilities = capabilities
   }
  

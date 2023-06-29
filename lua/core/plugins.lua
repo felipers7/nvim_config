@@ -19,7 +19,8 @@ local ensure_packer = function()
     -- Use :PackerSync to update
     use 'nvim-tree/nvim-tree.lua'
     use 'nvim-tree/nvim-web-devicons'
-    use 'nvim-treesitter/nvim-treesitter'
+    use ('nvim-treesitter/nvim-treesitter',{run = ':TSUpdate'})
+    use 'nvim-treesitter/playground'
     use 'hrsh7th/nvim-cmp'
     use 'hrsh7th/cmp-nvim-lsp'
     use 'hrsh7th/cmp-buffer'
