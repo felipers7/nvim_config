@@ -5,7 +5,7 @@ local function import()
 	local is_component_imported = false
 
 	for _, line in ipairs(lines) do
-		if string.find(line, 'import component%$ from "@builder.io/qwik";') then
+		if string.find(line, 'import') and string.find(line, 'component%$') then
 			is_component_imported = true	
 		end
 		if string.find(line, 'component%$') then

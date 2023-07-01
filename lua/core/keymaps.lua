@@ -5,6 +5,7 @@ vim.api.nvim_set_keymap('n', '<C-f>', ':NvimTreeFocus<CR>', {})
 vim.api.nvim_set_keymap('n', '<C-z>', '<nop>', {})
 vim.wo.number = true
 vim.wo.relativenumber = true
+vim.api.nvim_command('set shellslash')
 
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
