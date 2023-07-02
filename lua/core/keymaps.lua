@@ -10,7 +10,9 @@ vim.api.nvim_command('set shellslash')
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
+vim.opt.clipboard = "unnamed"
 
+--vim.api.nvim_set_keymap('v','<C-c>','::w!clip',{})
 
 --vim.api.nvim_command('autocmd TextChanged *.tsx lua require"core.plugin_custom.qwik_scope".import()')
 vim.api.nvim_command('autocmd InsertLeave *.tsx lua require"core.plugin_custom.qwik_scope".import()')
