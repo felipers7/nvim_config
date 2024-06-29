@@ -21,6 +21,7 @@ return require('packer').startup(function(use)
     tag = '0.1.4',
     requires = {{'nvim-lua/plenary.nvim'}}
   }
+  use 'mhartington/oceanic-next'
   use {
     'williamboman/mason.nvim',
     'williamboman/mason-lspconfig.nvim',

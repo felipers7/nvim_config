@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Felipe\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  ["oceanic-next"] = {
+    loaded = true,
+    path = "C:\\Users\\Felipe\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\oceanic-next",
+    url = "https://github.com/mhartington/oceanic-next"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Felipe\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
